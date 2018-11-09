@@ -1,2 +1,20 @@
 # workflowSalas
-API para controlar aluguel de salas de reunião
+API para controlar agendamentos de salas de reunião
+
+
+Olá MagaBoys and MagaGirls,
+
+este é meu projeto em python, um serviço que retorna as seguintes informações:
+
+● Uma API para criar, editar e remover agendamentos
+
+
+● Uma API para listar e filtrar agendamentos por data e sala
+Obter sala reservada por filtro especifico
+http://127.0.0.1:8000/reservas/?idSala=&idUsuario=&datareserva=2018-10-30&tituloreserva=&horario=&flagdiatodo=
+http://127.0.0.1:8000/reservas/?idSala=&idUsuario=2&datareserva=&tituloreserva=&horario=&flagdiatodo=
+
+
+● Uma API para criar, editar e remover salas de reuniões
+Obter Sala por filtro
+http://127.0.0.1:8000/salas/?nomesala=&idlocalidade=&qtdPessoasSentadas=5&qtdLotacaomax=&flagrecursosvisuais=&flagpontorede=
