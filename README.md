@@ -2,10 +2,7 @@
 API para controlar agendamentos de salas de reunião
 
 
-Olá MagaBoys and MagaGirls,
-
-este é meu projeto em python, um serviço que retorna as seguintes informações:
-
+Olá MagaBoys and MagaGirls, visto que a vaga é python, envio para vocês minha api construída em python tbm!!
 
 
 $ para iniciar o serviço
