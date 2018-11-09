@@ -1,26 +1,39 @@
 
-informações adicionais
+informações adicionais desenvolverdor
 
 
 
-para iniciar o serviço
-run manage.py server
+#########################URL#############################$###
 
+Cadastrar UsuÃ¡rio
 
-para verificar usuário de autenticação
+Obter todos os Usuario
+http://127.0.0.1:8000/usuarios/
 
-Django admin
-http://127.0.0.1:8000/admin/
+obter usuÃ¡rio por codigo
+http://127.0.0.1:8000/usuario/2/
 
-user_magalu
-admin
-usermagalu@gmail.com
+Cadastrar Sala
 
+Obter Sala por filtro
+http://127.0.0.1:8000/salas/?nomesala=&idlocalidade=&qtdPessoasSentadas=5&qtdLotacaomax=&flagrecursosvisuais=&flagpontorede=
 
-usuário do serviço- staff console adm
+cadastrar localidade
 
-magalu10@
-testethais
+obter localidade
 
+Reservar sala
 
+Obter sala reservada por filtro especifico
+http://127.0.0.1:8000/reservas/?idSala=&idUsuario=&datareserva=2018-10-30&tituloreserva=&horario=&flagdiatodo=
+http://127.0.0.1:8000/reservas/?idSala=&idUsuario=2&datareserva=&tituloreserva=&horario=&flagdiatodo=
+
+Obter sala reservadas
+http://127.0.0.1:8000/reservas/
+
+########################Infos#################################
+add packages
+
+pip install django-oauth-toolkit djangorestframework
+pip install rest_condition
 
