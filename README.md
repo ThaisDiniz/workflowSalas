@@ -36,8 +36,11 @@ magalu10@
 testethais
 
 
-● Uma API para criar, editar e remover agendamentos
+● Uma API para criar
+http://127.0.0.1:8000/reservas/
 
+editar e remover agendamentos
+http://127.0.0.1:8000/reserva/{id}
 
 ● Uma API para listar e filtrar agendamentos por data e sala
 
