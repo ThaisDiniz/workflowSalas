@@ -8,7 +8,7 @@ este é meu projeto em python, um serviço que retorna as seguintes informaçõe
 
 
 
-# para iniciar o serviço
+$ para iniciar o serviço
 run manage.py server
 
 
@@ -22,7 +22,7 @@ admin
 usermagalu@gmail.com
 
 
-usuario do serviço- staff console adm
+$ usuario do serviço- staff console adm
 
 magalu10@
 testethais
