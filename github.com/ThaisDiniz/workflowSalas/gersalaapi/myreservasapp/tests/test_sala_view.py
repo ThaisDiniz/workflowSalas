@@ -3,8 +3,8 @@ from django.urls import reverse, resolve
 from django.contrib.auth.models import User
 from rest_framework import status
 
-from gersalaapi.myreservasapp.models import Sala
-from gersalaapi.myreservasapp.views import SalaList
+from myreservasapp.models import Sala
+from myreservasapp.views import SalaList
 
 from rest_framework.test import APIRequestFactory
 from rest_framework.test import force_authenticate

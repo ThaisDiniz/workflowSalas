@@ -1,21 +1,18 @@
-from rest_framework.authtoken.models import Token
-
 from django.http import JsonResponse
-from django.shortcuts import render
-
-# Create your views here.
+from django_filters import rest_framework as filters
 import oauth2_provider.contrib.rest_framework
-
+from rest_condition import Or
 from rest_framework import generics , status
 from rest_framework.authentication import SessionAuthentication
-from rest_framework.permissions import IsAdminUser, IsAuthenticated
-from django_filters import rest_framework as filters
-from rest_condition import Or
-from .models import Usuario, Sala,  Localidade, Reserva
+from rest_framework.authtoken.models import Token
+from rest_framework.permissions import IsAdminUser
+
+from .models import Usuario, Sala, Localidade, Reserva
 from .serializers import UsuarioSerializer, SalaSerializer, LocalidadeSerializer, ReservaSerializer
 
-# Create your views here.
 
+# Create your views here.
+# Create your views here.
 class UsuarioList(generics.ListCreateAPIView):
 
     queryset = Usuario.objects.all()

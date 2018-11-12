@@ -1,17 +1,13 @@
-from django.test import TestCase
-
-# Create your tests here.
-
 from django.test import TestCase, RequestFactory
 from django.urls import resolve
 from django.contrib.auth.models import User, AnonymousUser
 from rest_framework import status
-
+from myreservasapp.views import token_request
 
 class TestTokenView(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
-        self.user = User.objects.create_user('johnSnow', 'lennon@johnSnow.com', 'johnSnow')
+        self.user = User.objects.create_user('ThataThas', 'teste@teste.com', 'thata')
 
     def test_token_url_resolves_view(self):
         view = resolve('/token/')
