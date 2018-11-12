@@ -8,8 +8,14 @@ Olá MagaBoys and MagaGirls, visto que a vaga é python, envio para vocês minha
 $ para iniciar o serviço
 
 python manage.py makemigrations
+
+
 python manage.py migrate
+
+
 python manage.py createsuperuser (usuario: user_magalu, email: teste@teste.com e senha: admin)
+
+
 python manage.py runserver
 
 
