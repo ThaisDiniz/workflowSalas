@@ -58,4 +58,5 @@ Obter Sala por filtro
 
 http://127.0.0.1:8000/salas/?nomesala=&idlocalidade=&qtdPessoasSentadas=5&qtdLotacaomax=&flagrecursosvisuais=&flagpontorede=
 
-
+editar e remover salas
+http://127.0.0.1:8000/sala/{id}
