@@ -1,31 +1,16 @@
 
-para iniciar o serviço
-run manage.py server
+informações adicionais desenvolverdor
 
 
-para verificar usuário de autenticação
-
-Django admin
-http://127.0.0.1:8000/admin/
-
-user_magalu
-admin
-usermagalu@gmail.com
-
-
-usuário do serviço- staff console adm
-
-magalu10@
-testethais
 
 #########################URL#############################$###
 
-Cadastrar Usuário
+Cadastrar UsuÃ¡rio
 
 Obter todos os Usuario
 http://127.0.0.1:8000/usuarios/
 
-obter usuário por codigo
+obter usuÃ¡rio por codigo
 http://127.0.0.1:8000/usuario/2/
 
 Cadastrar Sala
