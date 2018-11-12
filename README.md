@@ -7,8 +7,16 @@ Olá MagaBoys and MagaGirls, visto que a vaga é python, envio para vocês minha
 
 $ para iniciar o serviço
 
+python manage.py makemigrations
 
-run manage.py server
+
+python manage.py migrate
+
+
+python manage.py createsuperuser (usuario: user_magalu, email: teste@teste.com e senha: admin)
+
+
+python manage.py runserver
 
 
 $ para verificar usuário de autenticação
@@ -16,21 +24,12 @@ $ para verificar usuário de autenticação
 Django admin: 
 http://127.0.0.1:8000/admin/
 
+
 user_magalu
 
 
 admin
 
-
-usermagalu@gmail.com
-
-
-$ usuario do serviço- staff console adm
-
-magalu10@
-
-
-testethais
 
 
 ● Uma API para criar
@@ -59,4 +58,5 @@ Obter Sala por filtro
 
 http://127.0.0.1:8000/salas/?nomesala=&idlocalidade=&qtdPessoasSentadas=5&qtdLotacaomax=&flagrecursosvisuais=&flagpontorede=
 
-
+editar e remover salas
+http://127.0.0.1:8000/sala/{id}
