@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'myreservasapp',
     'rest_framework',
     'django_filters',
-    'oauth2_provider'
+    'oauth2_provider',
+    'rest_framework.authtoken'
 ]
 
 REST_FRAMEWORK = {
