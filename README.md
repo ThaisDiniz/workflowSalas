@@ -2,8 +2,6 @@
 API para controlar agendamentos de salas de reunião
 
 
-Olá MagaBoys and MagaGirls, visto que a vaga é python, envio para vocês minha api construída em python tbm!!
-
 
 $ para iniciar o serviço
 
@@ -13,7 +11,7 @@ python manage.py makemigrations
 python manage.py migrate
 
 
-python manage.py createsuperuser (usuario: user_magalu, email: teste@teste.com e senha: admin)
+python manage.py createsuperuser (usuario: user, email: teste@teste.com e senha: admin)
 
 
 python manage.py runserver
@@ -23,12 +21,6 @@ $ para verificar usuário de autenticação
 
 Django admin: 
 http://127.0.0.1:8000/admin/
-
-
-user_magalu
-
-
-admin
 
 
 
